@@ -1,0 +1,21 @@
+#single line comments
+a = 1
+b = 2
+c = a*b
+print(c)
+______________________________________________________________________________________________
+#multi line comments
+#adding two variables
+a=2
+b=3
+c=a+b
+print(c)
+_______________________________________________________________________________________________
+"""
+docstring comments
+this code divides two numbers
+"""
+x=8
+y=4
+z=x/y
+print(z)
