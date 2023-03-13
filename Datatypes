@@ -1,0 +1,47 @@
+#integer
+x = 100
+y = 124
+print(x)
+________________________________________________________________________________
+#float
+x  = 10.25
+y = 12.30
+print(y)
+________________________________________________________________________________
+#complex
+x = 10 + 5j
+print(x)
+_________________________________________________________________________________
+#string
+name = 'excel'
+name[2]
+_________________________________________________________________________________
+#Operations using strings
+name = 'excel'
+name.upper()
+name.lower()
+name.replace('e') = 'E'
+name[1: 4]
+__________________________________________________________________________________
+#lists
+mylist = [10,20,30,40,20,30, 'excel']
+#accessing values from lists
+mylist[2:6] #this will get the values from index 2 until index 6.
+#Adding/Replacing values in a list
+mylist[6] = 'python' #this will replace the value at the index 6. 
+mylist.append('excel')#this will add the value at the end of the list.
+mylist.insert(5, 'data science')#this will add the value at the index 5.
+___________________________________________________________________________________
+#tuples
+mytuple = (10,10,20,30,40,50) #to count the number of elements
+ 
+mytuple.count(10) #the output will be 2
+ 
+#to find the index
+mytuple.index(50) #the output will be 5. since the index number at 50 is 5.
+____________________________________________________________________________________
+#dictionary
+mydictionary = { 'python': 'data science', 'machine learning' : 'tensorflow' , 'artificial intelligence': 'keras'}
+mydictionary['machine learning'] #this will give the output as 'tensorflow'
+mydictionary.get('python') #this serves the same purpose to access the value.
+_____________________________________________________________________________________
